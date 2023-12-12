@@ -15,7 +15,7 @@ class RectangleTest(unittest.TestCase):
 
     def test_zero_perimetr(self):
         res = rectangle.perimetr(0, 0)
-        self.assertEqual(res, 1)
+        self.assertEqual(res, 0)
 
 
 class SquareTest(unittest.TestCase):

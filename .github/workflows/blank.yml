@@ -30,8 +30,5 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Install dependencies
-        run:  pip install -r requirements.txt
-
       - name: test
         run: python.exe -m unittest Test.py

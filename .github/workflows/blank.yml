@@ -31,4 +31,4 @@ jobs:
           python-version: 3.8
 
       - name: test
-        run: python.exe -m unittest Test.py
+        run: python -m unittest Test.py
